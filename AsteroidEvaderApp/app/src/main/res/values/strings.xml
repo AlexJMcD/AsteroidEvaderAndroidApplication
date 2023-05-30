@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AsteroidEvaderAndroidApp</string>
+    <string name="game_view_content_description" translatable="false">Game view</string>
+</resources>
