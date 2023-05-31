@@ -1,11 +1,11 @@
-package com.amcd.unity
+package com.amcd.unity.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.amcd.unity.R
 import com.unity3d.player.Test
-import com.unity3d.player.UnityPlayerActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
