@@ -12,11 +12,8 @@ class BootActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        installSplashScreen()
 
-        runBlocking {
-            installSplashScreen()
-            delay(5000)
-        }
         val bootIntent = Intent(this, MainActivity::class.java)
         startActivity(bootIntent)
         finish()

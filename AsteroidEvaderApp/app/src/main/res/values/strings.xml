@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">AsteroidEvaderAndroidApp</string>
+    <string name="app_label">Asteroid Evader</string>
+
+
+    <!--Required unity string-->
     <string name="game_view_content_description" translatable="false">Game view</string>
+
+    <!--Bottom nav fragment names-->
+    <string name="home">Home</string>
+    <string name="game">Game</string>
+    <string name="score">Score</string>
+
+    <!--Game fragment strings-->
+    <string name="start_game_button_text">Launch Game</string>
 </resources>
