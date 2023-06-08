@@ -12,6 +12,8 @@
 
 
 
+extern void AndroidFunctionCaller_SaveScoreData_m9F80BE277EA80B63614BB2AAE18AE8E3D527F292 (void);
+extern void AndroidFunctionCaller__ctor_mE5906609449920BB6327B0D73D8768FFD9D81407 (void);
 extern void Asteroid_OnTriggerEnter_m31615FE219C3B45987190DFE80A9C75FB6FD7411 (void);
 extern void Asteroid_OnBecameInvisible_m164043B87D21106E9B73C09AC90ED7E86D6F0120 (void);
 extern void Asteroid__ctor_m5DD154C19DC480E6C3E17320AE52EBB2C9517ACC (void);
@@ -42,8 +44,10 @@ extern void ScoreScript_GameEnd_m94017A363E052776908C828B5696ED6FAE20D1CA (void)
 extern void ScoreScript__ctor_m4965D0732AEA0185BC6DFD75C0CF938CC17FE96F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[30] = 
+static Il2CppMethodPointer s_methodPointers[32] = 
 {
+	AndroidFunctionCaller_SaveScoreData_m9F80BE277EA80B63614BB2AAE18AE8E3D527F292,
+	AndroidFunctionCaller__ctor_mE5906609449920BB6327B0D73D8768FFD9D81407,
 	Asteroid_OnTriggerEnter_m31615FE219C3B45987190DFE80A9C75FB6FD7411,
 	Asteroid_OnBecameInvisible_m164043B87D21106E9B73C09AC90ED7E86D6F0120,
 	Asteroid__ctor_m5DD154C19DC480E6C3E17320AE52EBB2C9517ACC,
@@ -75,8 +79,10 @@ static Il2CppMethodPointer s_methodPointers[30] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[30] = 
+static const int32_t s_InvokerIndices[32] = 
 {
+	5916,
+	7607,
 	5952,
 	7607,
 	7607,
@@ -112,7 +118,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	30,
+	32,
 	s_methodPointers,
 	0,
 	NULL,

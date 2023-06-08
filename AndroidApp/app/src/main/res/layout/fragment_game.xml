@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_light_grey"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:padding="@dimen/flexible_page_margin"
+    tools:context=".fragments.GameFragment">
+
+    <TextView
+        style="@style/Header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/game_tab_title"
+        android:textAllCaps="true"
+        android:textColor="@color/black" />
+
+    <TextView
+        style="@style/TextSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/game_tab_subtitle"
+        android:textColor="@color/app_grey" />
+
+    <TextView
+        android:id="@+id/no_score_yet"
+        style="@style/TextSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_high_score"
+        android:textColor="@color/app_grey" />
+
+    <LinearLayout
+        android:id="@+id/score_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            app:strokeColor="@color/app_grey"
+            app:strokeWidth="2dp">
+
+            <TextView
+                android:id="@+id/high_score_text"
+                style="@style/TextSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="12dp"
+                android:padding="20dp"
+                app:drawableEndCompat="@drawable/ic_gold_trophy" />
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/launch_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_game_button_text"
+        android:textAllCaps="true" />
+
+
+</LinearLayout>
