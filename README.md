@@ -54,5 +54,5 @@ The app uses a custom splash screen.
 https://github.com/AlexJMcD/AsteroidEvaderAndroidApplication/assets/92163117/bab70c23-15b8-4b56-a97c-f655f713c98c
 #### The size of the app when the game loads represents a screen rotation to landscape, the game still uses the full screen.
 
-#### If you got this far thank you very much for reading. I learnt alot while working on this project, and am keen to explore the further possibilites of combining ANdroid and Unity technologies. Have a nice day!
+#### If you got this far thank you very much for reading. I learnt alot while working on this project, and am keen to explore the further possibilites of combining Android and Unity technologies. Have a nice day!
 
