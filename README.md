@@ -1,6 +1,8 @@
 # Asteroid Evader
 
-### This app has been submitted to the Google Playstore for publishing, I will put the link here if/when it gets approved.
+#### This app has been submitted to the Google Playstore for publishing, I will put the link here if/when it gets approved.
+
+#### This app is made using the Unity Engine with c# for scripting, the Android Native elements of the Application are made use XML for the UI and Kotlin for the coding.
 
 #### Initially this appllication started as just the mobile game element, but as time went on and I learnt more about mobile game development, I started to think about whether it would be possible to make a mobile game one element of an application. As I am in a career as an Android developer, it made sense to see whether it would be possible to integrate a Unity Mobile game into a wider Android applciation. The answer was yes. I learnt that you can expand the capabilities of a standard Android application by integrating Unity elements into it.
 
