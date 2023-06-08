@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AsteroidEvaderAndroidApp</string>
+    <string name="app_label">Asteroid Evader</string>
+
+
+    <!--Required unity string-->
+    <string name="game_view_content_description" translatable="false">Game view</string>
+
+    <!--Bottom nav fragment names-->
+    <string name="home">Home</string>
+    <string name="game">Game</string>
+    <string name="score">Score</string>
+
+     <!--Home tab strings-->
+    <string name="home_tab_title">Welcome</string>
+    <string name="screenshots_title">Screenshots</string>
+    <string name="home_tab_welcome_message">Welcome to Asteroid Evader, thank you for downloading. This app has been constructed as a portfolio piece to demonstrate my Android and Unity development skills. The Unity game has been integrated into the Android app so that I can utilise features from both Unity and Android. For example any score achieved in the game will be stored in the App\'s room database. From this project I have learnt much about the potential capabilities of combining Android and Unity.</string>
+
+    <!--Game fragment strings-->
+    <string name="game_tab_title">Game</string>
+    <string name="game_tab_subtitle">From this tab you can launch the Asteroid Evader game, and view your high score.</string>
+    <string name="start_game_button_text">Launch Game</string>
+    <string name="no_high_score">You have not completed any games of Asteroid Evader yet. After you have completed a game your high score will be displayed here.</string>
+
+    <!--Score fragment strings-->
+    <string name="score_page_title">All time scores</string>
+    <string name="no_games_completed">You haven\'t completed any games of Asteroid Evader yet. Come back once you have completed a game to see your scores displayed here.</string>
+</resources>

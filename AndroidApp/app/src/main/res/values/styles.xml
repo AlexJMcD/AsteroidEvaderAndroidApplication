@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextSubtitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/app_grey</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="Header1">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/app_grey</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+</resources>

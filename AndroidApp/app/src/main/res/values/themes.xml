@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AsteroidEvader" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorSecondary">#0066FF</item>
+        <item name="colorTertiary">#80B3FF</item>
+        <item name="android:statusBarColor" >#0066FF</item>
+    </style>
+</resources>
