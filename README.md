@@ -1,6 +1,6 @@
 # Asteroid Evader
 
-#### This app has been submitted to the Google Playstore for publishing, I will put the link here if/when it gets approved.
+#### Google Playstore link https://play.google.com/store/apps/details?id=com.amcd.asteroid
 
 #### This app is made using the Unity Engine with c# for scripting, the Android Native elements of the Application are made use XML for the UI and Kotlin for the coding.
 
